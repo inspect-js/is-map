@@ -1,6 +1,6 @@
 {
   "name": "is-map",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Easily check if a givin object is an ES6 Map",
   "keywords": [
     "map",
