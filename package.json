@@ -1,0 +1,29 @@
+{
+  "name": "is-map",
+  "version": "0.0.0",
+  "description": "Easily check if a givin object is an ES6 Map",
+  "keywords": [
+    "map",
+    "es6",
+    "esnext",
+    "harmony",
+    "typeof",
+    "type",
+    "object"
+  ],
+  "license": "MIT",
+  "author": "Arthur Verschaeve <contact@arthurverschaeve.be>",
+  "files": [
+    "index.js"
+  ],
+  "repository": "arthurvr/is-map",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  }
+}
