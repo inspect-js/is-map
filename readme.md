@@ -19,6 +19,11 @@ isMap(new Map());
 isMap({});
 //=> false
 ```
+## Related
+
+* [`is-weakmap`](https://github.com/arthurvr/is-weakmap)
+* [`is-set`](https://github.com/arthurvr/is-set)
+* [`is-weakset`](https://github.com/arthurvr/is-weakset)
 
 ## License
 
