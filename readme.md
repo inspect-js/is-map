@@ -5,12 +5,12 @@
 ## Installation
 
 ```
-$ npm install is-map --save
+$ npm install --save is-map
 ```
 
 ## Usage
 
-```javascript
+```js
 var isMap = require('is-map');
 
 isMap(new Map());
