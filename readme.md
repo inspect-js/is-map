@@ -27,4 +27,4 @@ isMap({});
 
 ## License
 
-MIT © Arthur Verschaeve
+MIT © [Arthur Verschaeve](http://arthurverschaeve.be)
