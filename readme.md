@@ -2,11 +2,13 @@
 
 > Node module to easily check if an object is an [ES6 `Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 
+
 ## Installation
 
 ```
 $ npm install --save is-map
 ```
+
 
 ## Usage
 
@@ -19,11 +21,14 @@ isMap(new Map());
 isMap({});
 //=> false
 ```
+
+
 ## Related
 
 * [`is-weakmap`](https://github.com/arthurvr/is-weakmap)
 * [`is-set`](https://github.com/arthurvr/is-set)
 * [`is-weakset`](https://github.com/arthurvr/is-weakset)
+
 
 ## License
 
