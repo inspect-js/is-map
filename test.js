@@ -3,8 +3,10 @@ var test = require('ava');
 var isMap = require('./');
 
 test(function (t) {
-	t.assert(isMap(new Map()));
-	t.assert(!isMap(new Set()));
-	t.assert(!isMap({}));
-	t.assert(!isMap([]));
+	t.true(isMap(new Map()));
+	t.false(isMap(new Set()));
+	t.false(isMap({}));
+	t.false(isMap([]));
+
+	t.end();
 });

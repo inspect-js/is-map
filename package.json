@@ -18,10 +18,10 @@
   ],
   "repository": "arthurvr/is-map",
   "scripts": {
-    "test": "xo && node test.js"
+    "test": "xo && ava"
   },
   "devDependencies": {
-    "ava": "^0.0.4",
+    "ava": "*",
     "xo": "*"
   },
   "engines": {
