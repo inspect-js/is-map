@@ -1,8 +1,7 @@
-'use strict';
-var test = require('ava');
-var isMap = require('./');
+import test from 'ava';
+import isMap from './';
 
-test(function (t) {
+test(t => {
 	t.true(isMap(new Map()));
 	t.false(isMap(new Set()));
 	t.false(isMap({}));
