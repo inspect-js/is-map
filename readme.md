@@ -13,7 +13,7 @@ $ npm install --save is-map
 ## Usage
 
 ```js
-var isMap = require('is-map');
+const isMap = require('is-map');
 
 isMap(new Map());
 //=> true
