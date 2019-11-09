@@ -1,0 +1,26 @@
+{
+	"name": "is-map",
+	"version": "1.0.1",
+	"description": "Is this value a JS Map? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inspect-js/is-map.git"
+	},
+	"keywords": [
+		"map",
+		"set",
+		"collection",
+		"is",
+		"robust"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/inspect-js/is-map/issues"
+	},
+	"homepage": "https://github.com/inspect-js/is-map#readme"
+}
