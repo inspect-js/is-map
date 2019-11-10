@@ -8,7 +8,8 @@
 		"lint": "eslint .",
 		"tests-only": "node test",
 		"posttests-only": "node -e \"require('es5-shim'); require('es6-shim'); require('./test');\"",
-		"test": "npm run tests-only"
+		"test": "npm run tests-only",
+		"posttest": "npx aud"
 	},
 	"repository": {
 		"type": "git",
