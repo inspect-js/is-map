@@ -12,7 +12,7 @@
 		"tests-only": "node test",
 		"posttests-only": "node -e \"require('es5-shim'); require('es6-shim'); require('./test');\"",
 		"test": "npm run tests-only",
-		"posttest": "npx aud"
+		"posttest": "npx aud --production"
 	},
 	"repository": {
 		"type": "git",
