@@ -36,7 +36,8 @@
 	"homepage": "https://github.com/inspect-js/is-map#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^16.0.0",
-		"auto-changelog": "^1.16.2",
+		"aud": "^1.1.0",
+		"auto-changelog": "^2.0.0",
 		"es5-shim": "^4.5.14",
 		"es6-shim": "^0.35.5",
 		"eslint": "^6.8.0",
