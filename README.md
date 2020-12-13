@@ -1,6 +1,5 @@
 # is-map <sup>[![Version Badge][2]][1]</sup>
 
-[![Build Status][3]][4]
 [![dependency status][5]][6]
 [![dev dependency status][7]][8]
 [![License][license-image]][license-url]
@@ -35,15 +34,13 @@ assert(isMap(new MyMap()));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-map
-[2]: http://versionbadg.es/inspect-js/is-map.svg
-[3]: https://travis-ci.org/inspect-js/is-map.svg
-[4]: https://travis-ci.org/inspect-js/is-map
+[2]: https://versionbadg.es/inspect-js/is-map.svg
 [5]: https://david-dm.org/inspect-js/is-map.svg
 [6]: https://david-dm.org/inspect-js/is-map
 [7]: https://david-dm.org/inspect-js/is-map/dev-status.svg
 [8]: https://david-dm.org/inspect-js/is-map#info=devDependencies
 [11]: https://nodei.co/npm/is-map.png?downloads=true&stars=true
-[license-image]: http://img.shields.io/npm/l/is-map.svg
+[license-image]: https://img.shields.io/npm/l/is-map.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/is-map.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=is-map
+[downloads-image]: https://img.shields.io/npm/dm/is-map.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=is-map
