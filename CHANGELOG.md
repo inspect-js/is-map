@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.0.2](https://github.com/inspect-js/is-map/compare/v2.0.1...v2.0.2) - 2020-12-13
+
+### Commits
+
+- [Tests] migrate tests to Github Actions [`349a036`](https://github.com/inspect-js/is-map/commit/349a0362a744d024937a4356134389cbebf0c1a7)
+- [meta] do not publish github action workflow files [`f473ae7`](https://github.com/inspect-js/is-map/commit/f473ae777d15c5d247002f5aaa52ed4ada3a5dd4)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `es6-shim`, `object-inspect`, `tape` [`12dbda3`](https://github.com/inspect-js/is-map/commit/12dbda37a97c0dab0a3874a6cff086cd44f1c94c)
+- [Tests] run `nyc` on all tests; use `tape` runner; add `core-js` tests [`b280737`](https://github.com/inspect-js/is-map/commit/b280737c513588fef4b88c16328627744c8ab946)
+- [actions] add "Allow Edits" workflow [`d8dcf17`](https://github.com/inspect-js/is-map/commit/d8dcf17dd6b1cc09b8de369aa87188f469297b7c)
+- [readme] remove travis badge [`eab86f9`](https://github.com/inspect-js/is-map/commit/eab86f94cca4941861784e5eb8b7ca05e847e0b5)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape` [`9c87af5`](https://github.com/inspect-js/is-map/commit/9c87af5008a4ff79bffc3a6de55bf2d65979db6d)
+- [actions] switch Automatic Rease workflow to `pull_request_tarbget` event [`71647b8`](https://github.com/inspect-js/is-map/commit/71647b805066ecbc096d5742fd69046d22f2b5c4)
+- [Dev Deps] update `es5-shim`, `tape` [`3a91230`](https://github.com/inspect-js/is-map/commit/3a912305d7d836e8d6e4f80e9047e3beff8ea887)
+- [Dev Deps] update `auto-changelog`; add `aud` [`d3cd3da`](https://github.com/inspect-js/is-map/commit/d3cd3da9008756a02c2b26b45292c477bf9594a9)
+- [Tests] only audit prod deps [`83ef327`](https://github.com/inspect-js/is-map/commit/83ef327c62d54a48193bf95ed8cb6c4dff0a2035)
+- [meta] normalize line endings [`81a9eec`](https://github.com/inspect-js/is-map/commit/81a9eec713f8e309fa1f0ffb7e4b154c359b367b)
+
 ## [v2.0.1](https://github.com/inspect-js/is-map/compare/v2.0.0...v2.0.1) - 2019-12-17
 
 ### Fixed
