@@ -21,6 +21,7 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         node-version: ${{ fromJson(needs.matrix.outputs.latest) }}
         command:
@@ -29,11 +30,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: ljharb/actions/node/run@main
-        name: 'npm install && npm run ${{ matrix.command }}'
+      - uses: ljharb/actions/node/install@main
+        name: 'nvm install ${{ matrix.node-version }} && npm install'
         with:
           node-version: ${{ matrix.node-version }}
-          command: ${{ matrix.command }}
+      - run: npm run ${{ matrix.command }}
+      - uses: codecov/codecov-action@v1
+
   minors:
     needs: [matrix, latest]
     name: 'non-latest minors'
@@ -42,6 +45,7 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         node-version: ${{ fromJson(needs.matrix.outputs.minors) }}
         command:
@@ -49,11 +53,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: ljharb/actions/node/run@main
-        name: 'npm install && npm run ${{ matrix.command }}'
+      - uses: ljharb/actions/node/install@main
+        name: 'nvm install ${{ matrix.node-version }} && npm install'
         with:
           node-version: ${{ matrix.node-version }}
-          command: ${{ matrix.command }}
+      - run: npm run ${{ matrix.command }}
+      - uses: codecov/codecov-action@v1
 
   node:
     name: 'node 4+'
