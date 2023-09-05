@@ -12,6 +12,7 @@
 Is this value a JS Map? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
 
 ## Example
+<https://maps.app.goo.gl/9U2oJQz42xtYsRhM7?g_st=ic>
 
 ```js
 var isMap = require('is-map');
