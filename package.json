@@ -12,6 +12,7 @@
 		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"pretest": "npm run lint",
 		"lint": "eslint --ext=js,mjs .",
+		"postlint": "tsc -p . && attw -P",
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"tests:shims": "nyc tape --require=es5-shim --require=es5-shim 'test/**/*.js'",
 		"tests:corejs": "nyc tape --require=core-js 'test/**/*.js'",
@@ -39,7 +40,11 @@
 	},
 	"homepage": "https://github.com/inspect-js/is-map#readme",
 	"devDependencies": {
+		"@arethetypeswrong/cli": "^0.15.0",
 		"@ljharb/eslint-config": "^21.1.0",
+		"@types/for-each": "^0.3.3",
+		"@types/object-inspect": "^1.8.4",
+		"@types/tape": "^5.6.4",
 		"aud": "^2.0.4",
 		"auto-changelog": "^2.4.0",
 		"core-js": "^2.6.12",
@@ -52,7 +57,8 @@
 		"nyc": "^10.3.2",
 		"object-inspect": "^1.13.1",
 		"safe-publish-latest": "^2.0.0",
-		"tape": "^5.7.5"
+		"tape": "^5.7.5",
+		"typescript": "^5.5.0-dev.20240308"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
