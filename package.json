@@ -58,7 +58,7 @@
 		"object-inspect": "^1.13.1",
 		"safe-publish-latest": "^2.0.0",
 		"tape": "^5.7.5",
-		"typescript": "^5.5.0-dev.20240308"
+		"typescript": "next"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
